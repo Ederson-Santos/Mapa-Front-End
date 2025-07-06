@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #600f64 ;
+    line-height: 1.6;
+    color: #cbf804;
+    font-family: "cabin border", sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+
+header {
+    padding: 1rem;
+    padding-left:0;
+    background-color:#00ee33;
+    color: #0f0f0f;
+    text-align: center;
+}
+h1 {
+    color:#0f0f0f;
+    margin-top: 10px;
+}
+
+img{
+    width: 10rem;
+    border-radius: 5px;
+} 
+
+.imagem-centralizada {
+  text-align: center; 
+  margin: 20px;
+  gap: 1.5rem;
+}
+
+nav a{
+    margin: 20px;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #00ffcc;
+    line-height: 1.6;
+    transition: background 0.3s;
+}
+
+nav a.ativo {
+  background-color: #2E8B57;
+  color: #00ee33;
+  border-radius: 5px;
+}
+
+.destaque {
+  background-color: #2e8b57;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: background-color 0.5s ease;
+}
+
+main {
+    padding: 2rem;
+    display:flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    scroll-margin-top: 20px;
+}
+
+#projetos {
+    margin-top: 10px;
+    scroll-margin-top: 10px; /* Ajuste esse valor conforme a altura do seu cabeçalho */
+    padding: 0;
+    border-radius: 8px;
+}
+
+
+section {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    scroll-margin-top: 10px;
+}
+
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #c71414;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.botao:hover {
+    background: #0a29d8;
+}
+
+h2 {
+    color: #00ff00;
+    margin-top: 20px;
+    scroll-snap-align: 10px;
+}
+
+nav a:focus,
+nav a:target,
+nav a.active {
+  color: #c71414;
+  background-color: #222;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+ul {
+    margin-left: 1.5 rem;
+}
+
+h3 {
+    color: #00ff00;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color:#00ee33;
+    color: #0f0f0f ;
+    padding: 1rem;
+    text-align: center;
+}
+
